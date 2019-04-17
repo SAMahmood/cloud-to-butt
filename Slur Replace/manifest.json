@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Slur Replacer",
-	"version": "1.1",
+	"version": "1.0",
 	"description": "Replaces the x-slur or x-word format with the actual slur.",
 	"content_scripts": 
 	[

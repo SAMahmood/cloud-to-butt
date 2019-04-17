@@ -43,7 +43,6 @@ function handleText(textNode)
 	v = v.replace(/\br-slur/g, "retard");
 	v = v.replace(/\bg-slur/g, "gussy");
 	v = v.replace(/\bf2-slur/g, "femoid");
-	v = v.replace(/\bf3-slur/g, "female");
 	v = v.replace(/\bF-slur/g, "faggot");
 	v = v.replace(/\bG-slur/g, "gay");
 	v = v.replace(/\bN-slur/g, "nigger");
@@ -51,7 +50,6 @@ function handleText(textNode)
 	v = v.replace(/\bR-slur/g, "retard");
 	v = v.replace(/\bG-slur/g, "gussy");
 	v = v.replace(/\bF2-slur/g, "femoid");
-	v = v.replace(/\bF3-slur/g, "female");
 	v = v.replace(/\bf-word/g, "faggot");
 	v = v.replace(/\bg-word/g, "gay");
 	v = v.replace(/\bn-word/g, "nigger");
@@ -59,7 +57,6 @@ function handleText(textNode)
 	v = v.replace(/\br-word/g, "retard");
 	v = v.replace(/\bg-word/g, "gussy");
 	v = v.replace(/\bf2-word/g, "femoid");
-	v = v.replace(/\bf3-word/g, "female");
 	v = v.replace(/\bF-word/g, "faggot");
 	v = v.replace(/\bG-word/g, "gay");
 	v = v.replace(/\bN-word/g, "nigger");
@@ -67,7 +64,6 @@ function handleText(textNode)
 	v = v.replace(/\bR-word/g, "retard");
 	v = v.replace(/\bG-word/g, "gussy");
 	v = v.replace(/\bF2-word/g, "femoid");
-	v = v.replace(/\bF3-word/g, "female");
 	
 	textNode.nodeValue = v;
 }
